@@ -21,4 +21,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
 </Project>
