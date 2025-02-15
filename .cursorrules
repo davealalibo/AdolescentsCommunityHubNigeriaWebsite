@@ -1,0 +1,36 @@
+{
+    "ignore": [
+        "bin/",
+        "obj/",
+        "*.user",
+        "*.suo",
+        ".vs/",
+        "node_modules/",
+        "wwwroot/lib/",
+        "*.min.css",
+        "*.min.js",
+        "*.log",
+        "Migrations/",
+        "*.db",
+        "appsettings.*.json",
+        "*.Development.json"
+    ],
+    "formatOnSave": true,
+    "useLanguageServer": true,
+    "omnisharp": {
+        "enabled": true,
+        "enableRoslynAnalyzers": true,
+        "enableImportCompletion": true,
+        "enableSemanticHighlighting": true
+    },
+    "search": {
+        "excludeDirectories": [
+            "bin",
+            "obj",
+            "node_modules",
+            ".vs"
+        ]
+    }
+} 
+
+This is an ASP.NET Core MVC web application for Adolescents Community Hub Nigeria (ACH).
