@@ -1,0 +1,189 @@
+﻿@{
+    ViewData["Title"] = "Coming Soon";
+    //Layout = null;
+}
+
+<div class="text-center">
+    <div class="logo-container">
+        <img src="~/images/achnlogo.jpeg" alt="ACHN Logo" class="logo" />
+    </div>
+
+    <h1 class="organization-name">Adolescent & Community Hub Nigeria</h1>
+    <p class="organization-acronym">ACHN</p>
+
+    <h2 class="coming-soon">Coming Soon</h2>
+    <p class="subtitle">We're building something special for the community</p>
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <p class="launch-date">Launching in March, 2025</p>
+
+    <div class="stay-updated">
+        <h3>Stay Updated</h3>
+        <p>Subscribe to receive updates about our launch</p>
+
+        <div class="subscription-form">
+            <input type="email" placeholder="Enter your email" class="email-input" />
+            <button class="notify-button">Notify Me</button>
+        </div>
+
+        <p class="form-subtitle">Be the first to know when we launch</p>
+    </div>
+
+    <div class="social-links">
+        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <span class="leaf-icon">🌿</span>
+            <p>&copy; 2024 Adolescent & Community Hub Nigeria</p>
+            <p>All rights reserved</p>
+        </div>
+    </footer>
+</div>
+
+<style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .logo-container {
+        margin: 2rem 0;
+    }
+
+    .logo {
+        max-width: 200px;
+        height: auto;
+    }
+
+    .organization-name {
+        color: #1B5E20;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .organization-acronym {
+        color: #4CAF50;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .coming-soon {
+        color: #1B5E20;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .subtitle {
+        color: #666;
+        margin-bottom: 2rem;
+    }
+
+    .progress-container {
+        width: 80%;
+        max-width: 600px;
+        height: 8px;
+        background-color: #E8F5E9;
+        border-radius: 4px;
+        margin: 2rem auto;
+        overflow: hidden;
+    }
+
+    .progress-bar {
+        width: 80%;
+        height: 100%;
+        background-color: #4CAF50;
+        border-radius: 4px;
+    }
+
+    .launch-date {
+        color: #1B5E20;
+        font-weight: 500;
+        margin-bottom: 3rem;
+    }
+
+    .stay-updated {
+        margin: 3rem 0;
+    }
+
+        .stay-updated h3 {
+            color: #1B5E20;
+            margin-bottom: 0.5rem;
+        }
+
+    .subscription-form {
+        margin: 1.5rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .email-input {
+        padding: 0.8rem 1rem;
+        width: 300px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+
+    .notify-button {
+        padding: 0.8rem 1.5rem;
+        background-color: #1B5E20;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s;
+    }
+
+        .notify-button:hover {
+            background-color: #2E7D32;
+        }
+
+    .form-subtitle {
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .social-links {
+        margin: 3rem 0;
+    }
+
+    .social-link {
+        color: #1B5E20;
+        font-size: 1.5rem;
+        margin: 0 1rem;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+        .social-link:hover {
+            color: #4CAF50;
+        }
+
+    .footer-content {
+        margin: 3rem 0 1rem;
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    .leaf-icon {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        display: inline-block;
+    }
+</style>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+}
+
